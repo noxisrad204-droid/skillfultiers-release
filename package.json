@@ -1,0 +1,13 @@
+{
+  "name": "skillfultiers",
+  "version": "1.6.1-soft-launch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcrypt": "^5.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "username": "PlayerExample",
+    "tier": "HT1",
+    "stats": {
+      "Technique": "HT1",
+      "Mobility": "LT2",
+      "Weapon Usage": "LT1",
+      "Game Sense": "LT3",
+      "Execution": "HT1",
+      "Impact": "HT2"
+    }
+  }
+]

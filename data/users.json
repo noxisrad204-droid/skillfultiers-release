@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "username": "sho",
+      "password_hash": "USE_HASH_FROM_PHASE_13",
+      "role": "admin"
+    }
+  ]
+}

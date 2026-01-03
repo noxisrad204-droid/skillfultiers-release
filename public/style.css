@@ -1,0 +1,95 @@
+body{
+margin:0;
+font-family:Inter,Arial,sans-serif;
+background:linear-gradient(180deg,#0b1320,#070c15);
+color:white;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 32px;
+background:rgba(15,27,46,0.9);
+backdrop-filter:blur(10px);
+}
+.logo{
+height:46px;
+animation:glow 2.5s infinite alternate;
+}
+.auth button{
+margin-left:10px;
+padding:10px 16px;
+border:none;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+.roblox{background:#2f80ff;color:white}
+.discord{background:#5865F2;color:white}
+
+main{padding:50px}
+.subtitle{opacity:.7}
+
+.player-card{
+margin-top:30px;
+padding:20px;
+border-radius:14px;
+background:rgba(255,255,255,0.08);
+box-shadow:0 0 25px rgba(47,128,255,.15);
+transition:transform .2s, box-shadow .2s;
+}
+.player-card:hover{
+transform:translateY(-4px);
+box-shadow:0 0 35px rgba(47,128,255,.35);
+}
+.actions button{
+margin-top:12px;
+background:#2f80ff;
+border:none;
+color:white;
+padding:8px 14px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.profile{padding:40px}
+.top{display:flex;align-items:center;gap:20px}
+.avatar{
+width:96px;height:96px;border-radius:16px;
+background:#222;
+}
+.stats{
+margin-top:20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:16px;
+}
+.stat{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:14px;
+border-radius:12px;
+background:rgba(255,255,255,0.08);
+transition:transform .15s;
+}
+.stat:hover{transform:scale(1.04)}
+
+.badge{
+padding:6px 10px;
+border-radius:8px;
+font-weight:800;
+border:none;
+cursor:pointer;
+}
+.big{font-size:18px}
+.ht1{background:#ff4d4d}
+.ht2{background:#ff944d}
+.lt1{background:#4d79ff}
+.lt2{background:#4dd2ff}
+.lt3{background:#888}
+
+@keyframes glow{
+from{filter:drop-shadow(0 0 6px #2f80ff)}
+to{filter:drop-shadow(0 0 18px #2f80ff)}
+}
